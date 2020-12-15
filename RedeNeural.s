@@ -30,7 +30,6 @@ inicio:
 	vetorDados:	.word 0 		
 														
 .text 
-
 main:	
 			
 	# Solicita taxa de aprendizado
@@ -286,15 +285,6 @@ main:
                 addi $t0, $t0, 1
         	j FOR3
 	FIMFOR3:        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+                                       
                         
 	jr $ra # finaliza
